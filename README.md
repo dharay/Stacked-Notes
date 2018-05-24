@@ -8,7 +8,7 @@ CoreData<>iOS Client <--> Kitura swift server <> temporary variables
 
 ## setup
 
-select executable scheme for server, run server, run client.
+select the executable named 'server' as a scheme in xcode for server project, run server, run client.
 
 ## test
 
