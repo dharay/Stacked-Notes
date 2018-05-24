@@ -15,11 +15,9 @@ func save2server(){
     fetchNotesFromCoreData()
     let statuses = notesEntityArray.map({$0.noteStatus!})
     let notes  = notesEntityArray.map({$0.noteText!})
-    let json: [String: Any] = ["title": thePerson,
-                               "count":statuses.count,
-                               "noteStatus": statuses,
-                               "notes" : notes]
-    
+    let json: [[String: Any]] = [["noteStatus": statuses,
+                               "notes" : notes]]
+    print(json)
     let jsonData = try? JSONSerialization.data(withJSONObject: json)
     
     // create post request
@@ -57,9 +55,16 @@ func fetchFromServer(){
             return
         }
         let responseJSON = try? JSONSerialization.jsonObject(with: data!, options: [])
-        if let responseJSON = responseJSON as? [String: Any] {
-            print(responseJSON)
+        if (responseJSON as? [[[String: String]]]) != nil {
+            print("type confirmed")
         }
+        print(responseJSON!)
+        let temp = responseJSON as! [[[String:Any]]]
+        let notes = temp[0]//[[String:String]]
+        for note in notes{
+            storeNoteToCoreData(noteText: (note["notes"] as! [String])[0], status: (note["noteStatus"] as! [String])[0])
+        }
+        fetchInProgress = false
         print("fetched from server")
     }
     task.resume()

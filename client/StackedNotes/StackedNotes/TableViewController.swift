@@ -2,6 +2,8 @@
 
 import UIKit
 
+var fetchInProgress = false
+
 class TableViewController: UITableViewController {
     
     override func viewWillAppear(_ animated: Bool) {
@@ -117,6 +119,23 @@ class TableViewController: UITableViewController {
     @objc func fetchAction2(){
         
         fetchFromServer()
+        fetchInProgress = true
+        waitForFetch()
+        
+        
+    }
+    
+    func waitForFetch(){
+        if fetchInProgress{
+            DispatchQueue.global(qos: .userInitiated).asyncAfter(deadline: DispatchTime.now() + 0.1, execute: {self.waitForFetch()})
+        }else{
+            DispatchQueue.main.async {
+                fetchNotesFromCoreData()
+                self.tableView.reloadData()
+                print("reloaded")
+            }
+            
+        }
         
     }
 
