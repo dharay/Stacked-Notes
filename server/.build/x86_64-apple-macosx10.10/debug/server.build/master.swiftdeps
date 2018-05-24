@@ -1,0 +1,9 @@
+version: "Apple Swift version 4.1 (swiftlang-902.0.48 clang-902.0.37.1)"
+options: "91b1249cb8c246614d2951aaac85db16"
+build_time: [1527179843, 395575000]
+inputs:
+  "/Users/dharaym/Documents/xcode projects/notes/stacked-notes/server/Sources/server/CoreData.swift": [1527179838, 0]
+  "/Users/dharaym/Documents/xcode projects/notes/stacked-notes/server/Sources/server/NoteEntity+CoreDataClass.swift": [1527179837, 0]
+  "/Users/dharaym/Documents/xcode projects/notes/stacked-notes/server/Sources/server/NoteEntity+CoreDataProperties.swift": [1527179835, 0]
+  "/Users/dharaym/Documents/xcode projects/notes/stacked-notes/server/Sources/server/handlers.swift": [1527179834, 0]
+  "/Users/dharaym/Documents/xcode projects/notes/stacked-notes/server/Sources/server/main.swift": [1527179833, 0]

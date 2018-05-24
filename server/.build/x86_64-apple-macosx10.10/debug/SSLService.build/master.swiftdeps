@@ -1,0 +1,5 @@
+version: "Apple Swift version 4.1 (swiftlang-902.0.48 clang-902.0.37.1)"
+options: "896d7774acf3145d732ae4e123f7cfc3"
+build_time: [1527179632, 862690000]
+inputs:
+  "/Users/dharaym/Documents/xcode projects/notes/stacked-notes/server/.build/checkouts/BlueSSLService.git--6577639804771281610/Sources/SSLService/SSLService.swift": [1527179620, 0]

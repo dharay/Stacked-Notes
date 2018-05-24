@@ -1,0 +1,35 @@
+{
+  "": {
+    "swift-dependencies": "/Users/dharaym/Documents/xcode projects/notes/stacked-notes/server/.build/x86_64-apple-macosx10.10/debug/server.build/master.swiftdeps"
+  },
+  "/Users/dharaym/Documents/xcode projects/notes/stacked-notes/server/Sources/server/CoreData.swift": {
+    "dependencies": "/Users/dharaym/Documents/xcode projects/notes/stacked-notes/server/.build/x86_64-apple-macosx10.10/debug/server.build/CoreData.d",
+    "object": "/Users/dharaym/Documents/xcode projects/notes/stacked-notes/server/.build/x86_64-apple-macosx10.10/debug/server.build/CoreData.swift.o",
+    "swiftmodule": "/Users/dharaym/Documents/xcode projects/notes/stacked-notes/server/.build/x86_64-apple-macosx10.10/debug/server.build/CoreData~partial.swiftmodule",
+    "swift-dependencies": "/Users/dharaym/Documents/xcode projects/notes/stacked-notes/server/.build/x86_64-apple-macosx10.10/debug/server.build/CoreData.swiftdeps"
+  },
+  "/Users/dharaym/Documents/xcode projects/notes/stacked-notes/server/Sources/server/NoteEntity+CoreDataClass.swift": {
+    "dependencies": "/Users/dharaym/Documents/xcode projects/notes/stacked-notes/server/.build/x86_64-apple-macosx10.10/debug/server.build/NoteEntity+CoreDataClass.d",
+    "object": "/Users/dharaym/Documents/xcode projects/notes/stacked-notes/server/.build/x86_64-apple-macosx10.10/debug/server.build/NoteEntity+CoreDataClass.swift.o",
+    "swiftmodule": "/Users/dharaym/Documents/xcode projects/notes/stacked-notes/server/.build/x86_64-apple-macosx10.10/debug/server.build/NoteEntity+CoreDataClass~partial.swiftmodule",
+    "swift-dependencies": "/Users/dharaym/Documents/xcode projects/notes/stacked-notes/server/.build/x86_64-apple-macosx10.10/debug/server.build/NoteEntity+CoreDataClass.swiftdeps"
+  },
+  "/Users/dharaym/Documents/xcode projects/notes/stacked-notes/server/Sources/server/NoteEntity+CoreDataProperties.swift": {
+    "dependencies": "/Users/dharaym/Documents/xcode projects/notes/stacked-notes/server/.build/x86_64-apple-macosx10.10/debug/server.build/NoteEntity+CoreDataProperties.d",
+    "object": "/Users/dharaym/Documents/xcode projects/notes/stacked-notes/server/.build/x86_64-apple-macosx10.10/debug/server.build/NoteEntity+CoreDataProperties.swift.o",
+    "swiftmodule": "/Users/dharaym/Documents/xcode projects/notes/stacked-notes/server/.build/x86_64-apple-macosx10.10/debug/server.build/NoteEntity+CoreDataProperties~partial.swiftmodule",
+    "swift-dependencies": "/Users/dharaym/Documents/xcode projects/notes/stacked-notes/server/.build/x86_64-apple-macosx10.10/debug/server.build/NoteEntity+CoreDataProperties.swiftdeps"
+  },
+  "/Users/dharaym/Documents/xcode projects/notes/stacked-notes/server/Sources/server/handlers.swift": {
+    "dependencies": "/Users/dharaym/Documents/xcode projects/notes/stacked-notes/server/.build/x86_64-apple-macosx10.10/debug/server.build/handlers.d",
+    "object": "/Users/dharaym/Documents/xcode projects/notes/stacked-notes/server/.build/x86_64-apple-macosx10.10/debug/server.build/handlers.swift.o",
+    "swiftmodule": "/Users/dharaym/Documents/xcode projects/notes/stacked-notes/server/.build/x86_64-apple-macosx10.10/debug/server.build/handlers~partial.swiftmodule",
+    "swift-dependencies": "/Users/dharaym/Documents/xcode projects/notes/stacked-notes/server/.build/x86_64-apple-macosx10.10/debug/server.build/handlers.swiftdeps"
+  },
+  "/Users/dharaym/Documents/xcode projects/notes/stacked-notes/server/Sources/server/main.swift": {
+    "dependencies": "/Users/dharaym/Documents/xcode projects/notes/stacked-notes/server/.build/x86_64-apple-macosx10.10/debug/server.build/main.d",
+    "object": "/Users/dharaym/Documents/xcode projects/notes/stacked-notes/server/.build/x86_64-apple-macosx10.10/debug/server.build/main.swift.o",
+    "swiftmodule": "/Users/dharaym/Documents/xcode projects/notes/stacked-notes/server/.build/x86_64-apple-macosx10.10/debug/server.build/main~partial.swiftmodule",
+    "swift-dependencies": "/Users/dharaym/Documents/xcode projects/notes/stacked-notes/server/.build/x86_64-apple-macosx10.10/debug/server.build/main.swiftdeps"
+  }
+}

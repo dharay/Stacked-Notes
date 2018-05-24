@@ -1,16 +1,16 @@
 import Kitura
 import Foundation
-import CoreData
+//import CoreData
 
 
-let coreData = CoreData()
+//let coreData = CoreData()
 
 
 // Create a new router which will control URL Mappings
 let router = Router()
 
-coreData.fetchNotesFromCoreData()
-coreData.deleteAll()
+//coreData.fetchNotesFromCoreData()
+//coreData.deleteAll()
 
 router.get("/hello", handler: helloHandler)
 router.get("/save/:note/:status", handler: saveNote)

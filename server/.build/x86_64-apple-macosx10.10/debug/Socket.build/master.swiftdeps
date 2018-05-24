@@ -1,0 +1,7 @@
+version: "Apple Swift version 4.1 (swiftlang-902.0.48 clang-902.0.37.1)"
+options: "231d3abf8ad22662259f26a2da6efe94"
+build_time: [1527179624, 67137000]
+inputs:
+  "/Users/dharaym/Documents/xcode projects/notes/stacked-notes/server/.build/checkouts/BlueSocket.git-3162807777605905816/Sources/Socket/Socket.swift": [1527179621, 0]
+  "/Users/dharaym/Documents/xcode projects/notes/stacked-notes/server/.build/checkouts/BlueSocket.git-3162807777605905816/Sources/Socket/SocketProtocols.swift": [1527179621, 0]
+  "/Users/dharaym/Documents/xcode projects/notes/stacked-notes/server/.build/checkouts/BlueSocket.git-3162807777605905816/Sources/Socket/SocketUtils.swift": [1527179621, 0]

@@ -7,7 +7,7 @@
 //
 
 import Foundation
-import CoreData
+/*import CoreData
 
 @available(OSX 10.12, *)
 class CoreData{
@@ -142,4 +142,4 @@ class CoreData{
 
     
     
-}
+ }*/

@@ -8,7 +8,7 @@
 
 import Kitura
 import Foundation
-import CoreData
+//import CoreData
 
 func helloHandler(request:RouterRequest,response:RouterResponse,next: ()->Void) -> Void {
     
@@ -32,7 +32,7 @@ func saveNote(request:RouterRequest,response:RouterResponse,next: ()->Void) -> V
         return
     }
    
-        coreData.storeNoteToCoreData(noteText: note, status: status)
+        //coreData.storeNoteToCoreData(noteText: note, status: status)
         
 
         response.status(.OK).send("")

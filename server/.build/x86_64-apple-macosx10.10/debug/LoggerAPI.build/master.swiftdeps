@@ -1,0 +1,5 @@
+version: "Apple Swift version 4.1 (swiftlang-902.0.48 clang-902.0.37.1)"
+options: "faa6da60a19bdcf1ff6a2bf772786a37"
+build_time: [1527179624, 308407000]
+inputs:
+  "/Users/dharaym/Documents/xcode projects/notes/stacked-notes/server/.build/checkouts/LoggerAPI.git--6449715459278086880/Sources/LoggerAPI/Logger.swift": [1527179621, 0]

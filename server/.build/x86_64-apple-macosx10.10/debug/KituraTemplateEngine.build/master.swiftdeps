@@ -1,0 +1,5 @@
+version: "Apple Swift version 4.1 (swiftlang-902.0.48 clang-902.0.37.1)"
+options: "65b0ef10c269e861dde3aadeff52ecaa"
+build_time: [1527179624, 58603000]
+inputs:
+  "/Users/dharaym/Documents/xcode projects/notes/stacked-notes/server/.build/checkouts/Kitura-TemplateEngine.git--5059963620657797085/Sources/KituraTemplateEngine/TemplateEngine.swift": [1527179622, 0]

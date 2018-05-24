@@ -1,0 +1,11 @@
+version: "Apple Swift version 4.1 (swiftlang-902.0.48 clang-902.0.37.1)"
+options: "52eeb89fa23399b13d2a5e0e38579763"
+build_time: [1527179624, 579822000]
+inputs:
+  "/Users/dharaym/Documents/xcode projects/notes/stacked-notes/server/.build/checkouts/KituraContracts.git--3897699854862625585/Sources/KituraContracts/BodyFormat.swift": [1527179620, 0]
+  "/Users/dharaym/Documents/xcode projects/notes/stacked-notes/server/.build/checkouts/KituraContracts.git--3897699854862625585/Sources/KituraContracts/ClosureAliases.swift": [1527179620, 0]
+  "/Users/dharaym/Documents/xcode projects/notes/stacked-notes/server/.build/checkouts/KituraContracts.git--3897699854862625585/Sources/KituraContracts/CodableQuery/Coder.swift": [1527179620, 0]
+  "/Users/dharaym/Documents/xcode projects/notes/stacked-notes/server/.build/checkouts/KituraContracts.git--3897699854862625585/Sources/KituraContracts/CodableQuery/Extensions.swift": [1527179620, 0]
+  "/Users/dharaym/Documents/xcode projects/notes/stacked-notes/server/.build/checkouts/KituraContracts.git--3897699854862625585/Sources/KituraContracts/CodableQuery/QueryDecoder.swift": [1527179620, 0]
+  "/Users/dharaym/Documents/xcode projects/notes/stacked-notes/server/.build/checkouts/KituraContracts.git--3897699854862625585/Sources/KituraContracts/CodableQuery/QueryEncoder.swift": [1527179620, 0]
+  "/Users/dharaym/Documents/xcode projects/notes/stacked-notes/server/.build/checkouts/KituraContracts.git--3897699854862625585/Sources/KituraContracts/Contracts.swift": [1527179620, 0]

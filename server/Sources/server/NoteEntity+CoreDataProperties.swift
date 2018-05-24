@@ -7,17 +7,19 @@
 //
 
 import Foundation
-import CoreData
+//import CoreData
+//
+//
+//extension NoteEntity {
+//
+//    @nonobjc public class func fetchRequest() -> NSFetchRequest<NoteEntity> {
+//        return NSFetchRequest<NoteEntity>(entityName: "NoteEntity")
+//    }
+//
+//    @NSManaged public var person: String?
+//    @NSManaged public var noteText: String?
+//    @NSManaged public var noteStatus: String?
+//
+//}
 
 
-extension NoteEntity {
-
-    @nonobjc public class func fetchRequest() -> NSFetchRequest<NoteEntity> {
-        return NSFetchRequest<NoteEntity>(entityName: "NoteEntity")
-    }
-
-    @NSManaged public var person: String?
-    @NSManaged public var noteText: String?
-    @NSManaged public var noteStatus: String?
-
-}
