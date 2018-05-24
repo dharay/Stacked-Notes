@@ -1,9 +1,18 @@
 # Stacked-Notes
 
-full stack project, a notes app, in development.
+## Info
 
-CoreData<>iOS Client <--> Kitura swift server <> CoreData
+full stack project, a notes app.
+
+CoreData<>iOS Client <--> Kitura swift server <> temporary variables
 
 ## setup
 
-run command ‘swift package update’ in server folder and then open Xcode prject
+select executable scheme for server, run server, run client.
+
+## test
+
+-create a note
+-press save icon (save to server)
+-delete note in client through swipe action
+-press fetch icon (fetch from server)
